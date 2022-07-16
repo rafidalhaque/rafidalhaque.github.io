@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1080"
+   height="1080"
+   viewBox="0 0 1080 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="small-r-in-cir.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="701"
+     inkscape:cy="487"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       cx="540"
+       cy="540"
+       r="428.88"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="16"
+       id="circle687"
+       style="stroke-width:20.4;stroke-dasharray:none;stroke:#84b2e6;stroke-opacity:1;stroke-dashoffset:0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:759.726px;font-family:Amaranth;-inkscape-font-specification:'Amaranth, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#84b2e6;fill-opacity:1;stroke-width:16.8414"
+       x="534.68219"
+       y="733.35028"
+       id="text932"><tspan
+         sodipodi:role="line"
+         id="tspan930"
+         x="534.68219"
+         y="733.35028"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:759.726px;font-family:Amaranth;-inkscape-font-specification:'Amaranth, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#84b2e6;fill-opacity:1;stroke-width:16.8414">r</tspan></text>
+  </g>
+</svg>

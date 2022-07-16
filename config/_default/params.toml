@@ -18,7 +18,7 @@ subtitle = "Muslim, Programmar, Islamist, Online Activist..."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "../../content/img/avatar.svg"
+src = "content/img/avatar.svg"
 
 [article]
 math = true
@@ -75,7 +75,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "giscus"
 
 [comments.disqusjs]
 shortname = ""
@@ -126,15 +126,18 @@ serverName = "cactus.chat"
 siteName = ""
 
 [comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
-lightTheme = ""
-darkTheme = ""
+repo = "rafidalhaque/rafidalhaque.github.io"
+repoID = "R_kgDOHqux1w"
+category = "Comments"
+categoryID = "DIC_kwDOHqux184CQQPU"
+mapping = "url"
+lightTheme = "light_tritanopia"
+darkTheme = "transparent_dark"
 reactionsEnabled = 1
-emitMetadata = 0
+emitMetadata = 1
+inputPosition="top"
+lang="en"
+crossorigin="anonymous"
 
 [comments.gitalk]
 owner = ""

@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Contact
 links:
   - title: E-mail
     description: My E-mail Address.

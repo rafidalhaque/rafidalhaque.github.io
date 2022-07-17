@@ -18,7 +18,7 @@ subtitle = "Muslim, Programmar, Islamist, Online Activist..."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "content/img/avatar.svg"
+src = "static/img/avatar.svg"
 
 [article]
 math = true

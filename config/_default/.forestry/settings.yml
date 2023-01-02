@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: Contents
+- type: document
+  path: content/page/*
+  label: Pages
+  match: "**/*"
 upload_dir: assets/img
 public_path: "/assets/img"
 front_matter_path: ''

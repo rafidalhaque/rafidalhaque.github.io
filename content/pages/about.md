@@ -2,7 +2,7 @@
 title: About
 description: 'Want to know more about me?'
 author: Rafid Al Haque
-date: 
+date: 2023-11-01
 ---
 
 Assalamu Alaikum Wa Rahmatullah. I'm Rafid Al Haque, a passionate programmer, lifelong student and of course a muslim. Welcome to blog and personal website.

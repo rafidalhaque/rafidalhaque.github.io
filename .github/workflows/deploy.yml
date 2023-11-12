@@ -26,8 +26,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./public
-          deploy_key: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.HUGO_DEPLOY }}
           publish_branch: gh-pages
-          publish_repo: yourusername/yourrepository
-          custom_domain: yourcustomdomain.com  # Optional: Set your custom domain
-
+          publish_repo: rafidalhaque/blog
+          custom_domain: rafidalhaque.me

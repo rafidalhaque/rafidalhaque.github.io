@@ -1,32 +1,46 @@
-name: Deploy Hugo Site
-
+name: gohugo.io
 on:
+  workflow_dispatch:
   push:
     branches:
-      - main
+    - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      id-token: write
+      contents: read
+      pages: write
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        submodules: true
 
-      - name: Set Up Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.88.1'
-          extended: true
+    - name: Setup
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: latest
+        extended: true
 
-      - name: Build Hugo Site
-        run: hugo --minify
+    - name: Cache
+      uses: actions/cache@v3
+      with:
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('go.sum') }}
+        path: /tmp/hugo_cache
+        restore-keys: ${{ runner.os }}-hugomod-
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./public
-          deploy_key: ${{ secrets.HUGO_DEPLOY }}
-          publish_branch: gh-pages
-          publish_repo: rafidalhaque/blog
-          custom_domain: rafidalhaque.me
+    - name: Build
+      run: hugo --minify
+
+    - name: Upload
+      uses: actions/upload-pages-artifact@v1
+      with:
+        name: github-pages
+        path: ./public
+        retention-days: 1
+
+    - name: Publish
+      uses: actions/deploy-pages@v2

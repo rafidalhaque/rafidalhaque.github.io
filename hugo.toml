@@ -113,7 +113,7 @@ url = "mailto:contact@rafidalhaque.me"
 
 [[params.socialIcons]]
 name = "mastodon"
-url = https://mastodon.social/rafidalhaque
+url = "https://mastodon.social/@rafidalhaque"
 
 [[params.socialIcons]]
 name = "cv"

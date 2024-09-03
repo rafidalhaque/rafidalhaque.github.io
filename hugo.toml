@@ -76,7 +76,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Rafid Al Haque"
   name = "Rafid Al Haque"
-  description = "Assalamu Alaikum Wa Rahmatullah. I’m Rafid Al Haque, a passionate programmer, lifelong student and of course a muslim. Welcome to my blog!"
+  description = "Programmer | STEM Enthusiast | CS Undegrad | Cosmopolite Muslim | Islamist"
 
 # Allow to override webmanifest options
 [params.webmanifest]

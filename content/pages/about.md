@@ -12,18 +12,18 @@ Assalamu Alaikum! I'm Rafid Al Haque, an undergraduate student from Bangladesh. 
 1. **Bachelor of Science in Computer Science and Engineering** (Running)<br>
 Hamdard University Bangladesh,<br>
 Munshigonj, Bangladesh.<br>
-web: [hamdarduniversity.edu.bd](https://hamdarduniversity.edu.bd)
+web: [hamdarduniversity.edu.bd](https://hamdarduniversity.edu.bd)<br>
 CGPA: 3.44 out of 4.00
 
 1. **Higher School Certificate**<br>
 Demra Ideal College,<br>
 Dhaka, Bangladesh.<br>
-web: [demraidealcollege.edu.bd](https://demraidealcollege.edu.bd)
+web: [demraidealcollege.edu.bd](https://demraidealcollege.edu.bd)<br>
 GPA: 4.08 out of 5.00
 
 1. **Secondary School Certificate**<br>
 Sanarpar Sheikh Mortoza Ali High School,<br>
-Dhaka, Bangladesh.
+Dhaka, Bangladesh.<br>
 GPA: 5.00 out of 5.00
 
 ## Skills

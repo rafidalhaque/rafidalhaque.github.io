@@ -16,15 +16,6 @@ content:
         type: date
         required: true
       
-      - name: description
-        label: Description
-        type: string
-      
-      
-      - name: featured_image
-        label: Featured Image
-        type: image
-      
       - name: draft
         label: Draft
         type: boolean
@@ -33,6 +24,8 @@ content:
       - name: content
         label: Content
         type: rich-text
+        options:
+          format: markdown
 
   - name: pages
     label: Pages

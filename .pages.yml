@@ -1,0 +1,57 @@
+media: static/images
+
+content:
+  - name: posts
+    label: Blog Posts
+    path: content/posts
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      
+      - name: date
+        label: Publication Date
+        type: date
+        required: true
+      
+      - name: description
+        label: Description
+        type: string
+      
+      
+      - name: featured_image
+        label: Featured Image
+        type: image
+      
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
+      
+      - name: content
+        label: Content
+        type: rich-text
+
+  - name: pages
+    label: Pages
+    path: content/pages
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      
+      - name: menu
+        label: Menu
+        type: string
+      
+      - name: weight
+        label: Menu Weight
+        type: number
+      
+      - name: content
+        label: Content
+        type: rich-text
